@@ -1,0 +1,23 @@
+.container_menu{
+    display: flex;
+    background-color: black;
+    width: 100vw ;
+    height: 15vh ;
+    justify-content: center ;
+    align-items: center;
+}
+.menu_logo{
+    flex-basis: 30vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.menu_nav{
+    flex-basis: 70vw;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+    text-transform: uppercase ;
+    color: white ;
+}
