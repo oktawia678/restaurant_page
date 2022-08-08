@@ -1,9 +1,10 @@
+import './header.css';
 export const Header = () => {
     return(
         <>
-        <div style={{display:'flex',backgroundColor:'pink',width:'100vw',height:'15vh',justifyContent:'center',alignItems:'center'}}>
-            <div style={{flexBasis: '30vw',display: 'flex',justifyContent: 'center'}}>Logo</div>
-            <div style={{flexBasis: '70vw',display:'flex',flexDirection: 'row',gap: '60px',justifyContent: 'center',textTransform:'uppercase' }}>
+        <div className='container_menu'>
+            <div className='menu_logo'>Logo</div>
+            <div className='menu_nav' >
                 <div>menu</div>
                 <div>dania</div>
                 <div>kontakt</div>
