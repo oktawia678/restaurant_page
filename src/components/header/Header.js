@@ -5,7 +5,7 @@ export const Header = () => {
         <div className='container_menu'>
             <div className='menu_logo'>Logo</div>
             <div className='menu_nav' >
-                <div>menu - test1</div>
+                <div>menu</div>
                 <div>dania</div>
                 <div>kontakt</div>
                 <div>o nas</div>

@@ -40,6 +40,12 @@ export const SectionCenter = () => {
           </div>
         </div>
       </div>
+      <div className="container_three">
+      <div className="container_information"></div>
+      <div className="box_menu"></div>
+
+
+      </div>
     </>
   );
 };

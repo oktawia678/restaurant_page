@@ -82,6 +82,10 @@
     justify-content: center;
     align-items: center;
     background-color: white;
+    background-image: url("../../food_photo.jpeg");
+    background-size: cover;
+
+
     
   }
   .container_center_page_two{
@@ -156,4 +160,34 @@
   font-family: Lato,sans-serif;
   line-height: 27.2px;
   
+}
+.container_three{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #fe562e;
+  width:100vw;
+  height:85vh;
+  
+
+
+}
+.container_information{
+  display:flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  background-color: darkgoldenrod;
+  width:100vw;
+  flex: 1;
+}
+.box_menu{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgreen;
+  width:100vw;
+  flex:1;
 }
