@@ -41,8 +41,15 @@ export const SectionCenter = () => {
         </div>
       </div>
       <div className="container_three">
-      <div className="container_information"></div>
-      <div className="box_menu"></div>
+      <div className="container_information"> 
+        <div className="box_special">
+          <div className="box_special1">TODAY'S SPECIAL</div>
+          <div className="box_special2">FRESH AND DELICIOUS</div>
+        </div>
+      </div>
+      <div className="box_menu">  
+       
+      </div> 
 
 
       </div>
