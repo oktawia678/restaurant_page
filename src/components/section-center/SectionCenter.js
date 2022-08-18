@@ -50,17 +50,17 @@ export const SectionCenter = () => {
       <div className="box_menu">  
       <div className="dish_1">
         <div className="image_one"></div>
-        <div className="under_text_one"></div>
+        <div className="under_text_one">Steak with potatoes...18.99$</div>
       </div>
       <div className="dish_2">
       <div className="image_two"></div>
-      <div className="under_text_two"></div>
+      <div className="under_text_two">Tenderloin with salad...17.99$</div>
       </div>
       
      
       <div className="dish_3">
         <div className="image_three"></div>
-        <div className="under_text_three"></div>
+        <div className="under_text_three">Chicken salad...16.99$</div>
       </div>
       </div>  
 
