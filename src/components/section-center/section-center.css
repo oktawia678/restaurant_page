@@ -83,9 +83,9 @@
     align-items: center;
     background-color: white;
     background-image: url("../../photo_meet.jpeg");
-    background-size: 70%%;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
     
 
 
@@ -186,13 +186,13 @@
   flex: 1;
 }
 .box_menu{
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display:grid;
+  grid-template-rows: repeat(24, 1fr);
+  grid-template-columns: repeat(24, 1fr);
   background-color: darkgreen;
   width:100vw;
-  flex:1;
+  height: 100%;
+  flex: 1;
 }
 .box_special{
   display: flex;
@@ -236,4 +236,56 @@
   line-height: 52px;
   
 
+}
+.dish_1{
+  grid-column: 3 / 8;
+  grid-row: 3 / 18;
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+}
+.dish_2{
+  grid-column: 10 / 15;
+  grid-row: 3 / 18;
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+}
+
+.dish_3{
+  grid-column: 17 / 22;
+  grid-row: 3 / 18;
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+
+}
+.image_one{
+  flex-basis: 70%;
+  background-color: coral;
+}
+
+.under_text_one{
+  flex-basis: 30%;
+  background-color: beige;
+}
+
+.image_two{ 
+  flex-basis: 70%;
+  background-color: coral;
+}
+
+.under_text_two{
+  flex-basis: 30%;
+  background-color: beige;
+}
+
+.image_three{
+  flex-basis: 70%;
+  background-color: coral;
+}
+
+.under_text_three{
+  flex-basis: 30%;
+  background-color: beige;
 }

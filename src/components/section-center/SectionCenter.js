@@ -48,8 +48,21 @@ export const SectionCenter = () => {
         </div>
       </div>
       <div className="box_menu">  
-       
-      </div> 
+      <div className="dish_1">
+        <div className="image_one"></div>
+        <div className="under_text_one"></div>
+      </div>
+      <div className="dish_2">
+      <div className="image_two"></div>
+      <div className="under_text_two"></div>
+      </div>
+      
+     
+      <div className="dish_3">
+        <div className="image_three"></div>
+        <div className="under_text_three"></div>
+      </div>
+      </div>  
 
 
       </div>
