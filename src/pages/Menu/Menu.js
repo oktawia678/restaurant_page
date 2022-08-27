@@ -1,7 +1,17 @@
-export const Menu = ()=>{
-    return(
+import { Header } from "../../components/header/Header"
+export const Menu  = () => {
+return(
     <>
-    jkklml
+    <Header/>
+    <div className="container_menu_card">
+
+    </div>
+    
     </>
     )
+    
+
+    
+    
+    
 }
