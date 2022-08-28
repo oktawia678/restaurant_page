@@ -1,0 +1,53 @@
+.container_menu_card{
+    display: grid;
+    width:100vw;
+    height: 85vh;
+    grid-template-rows: repeat(24, 1fr);
+    grid-template-columns: repeat(24, 1fr);
+    background-color: chocolate;
+
+}
+.offer_left{
+    display: flex;
+    flex-direction: column;
+    grid-column: 3  / 11;
+    grid-row: 3 / 21 ;
+    background-color: cornflowerblue;
+}
+.offer_right{
+    display: flex;
+    flex-direction: column;
+    grid-column: 15 / 23    ;
+    grid-row: 3 / 21;
+    background-color: cornflowerblue;
+}
+.option_dish_one{
+    display: flex;
+    flex: 1;
+    background-color: blueviolet;
+}
+.option_dish_two{
+    display: flex;
+    flex: 1;
+    background-color: brown;
+}
+.option_dish_three{
+    display: flex;
+    flex: 1;
+    background-color: chartreuse;
+}
+.option_dish_four{
+    display: flex;
+    flex: 1;
+    background-color:darkmagenta;
+}
+.option_dish_five{
+    display: flex;
+    flex: 1;
+    background-color: darkblue;
+}
+.option_dish_six{
+    display: flex;
+    flex: 1;
+    background-color: darkslategray;
+}
