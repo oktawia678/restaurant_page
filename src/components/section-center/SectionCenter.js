@@ -1,5 +1,6 @@
 import { Button } from "../button/Button";
 import "./section-center.css";
+
 export const SectionCenter = () => {
   return (
     <>
