@@ -51,3 +51,109 @@
     flex: 1;
     background-color: darkslategray;
 }
+.food_example_one{
+    display: flex;
+    background-color: darkgoldenrod;
+    width: 30%;
+    height: 100%;
+    background-image:url(../../photo_plate_one.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+}
+.text_price_one{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    width: 70%;
+    height: 100%;
+    
+
+    
+}
+.text_price_one > h1 {
+    display: flex;
+        
+    
+}
+.food_example_two{
+    display: flex;
+    background-color:cadetblue;
+    width: 30%;
+    height: 100%;
+    background-image: url(../../photo_plate_two.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+
+}
+.text_price_two{
+    display: flex;
+    background-color:coral;
+    width: 70%;
+    height: 100%;
+}
+.food_example_three{
+    display: flex;
+    background-color: darkgray;
+    width: 30%;
+    height: 100%;
+    background-image: url(../../photo_plate_three.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%
+}
+.text_price_three{
+    display: flex;
+    background-color: hotpink;
+    width: 70%;
+    height: 100%;
+}
+.food_example_four{
+    display: flex;
+    background-color: greenyellow;
+    width: 30%;
+    height:100%;
+    background-image: url(../../photo_plate_one.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+}
+.text_price_four{
+    display: flex;
+    background-color:darkorchid;
+    width: 70%;
+    height: 100%;
+}
+.food_example_five{
+    display: flex;
+    background-color: honeydew;
+    width: 30%;
+    height: 100%;
+    background-image: url(../../photo_plate_two.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+}
+.text_price_five{
+    display: flex;
+    background-color: lightgreen;
+    width: 70%;
+    height: 100%;
+}
+.food_example_six{
+    display: flex;
+    background-color: lightsalmon;
+    width: 30%;
+    height: 100%;
+    background-image: url(../../photo_plate_three.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: 50% 50%;
+}
+.text_price_six{
+    display: flex;
+    background-color: firebrick;
+    width: 70%;
+    height: 100%;
+}
