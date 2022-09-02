@@ -4,7 +4,7 @@
     height: 85vh;
     grid-template-rows: repeat(24, 1fr);
     grid-template-columns: repeat(24, 1fr);
-    background-color: chocolate;
+    background-color: white;
 
 }
 .offer_left{
@@ -12,48 +12,48 @@
     flex-direction: column;
     grid-column: 3  / 11;
     grid-row: 3 / 21 ;
-    background-color: cornflowerblue;
+    background-color: white;
 }
 .offer_right{
     display: flex;
     flex-direction: column;
     grid-column: 15 / 23    ;
     grid-row: 3 / 21;
-    background-color: cornflowerblue;
+    background-color: white;
 }
 .option_dish_one{
     display: flex;
     flex: 1;
-    background-color: blueviolet;
+    background-color: white;
 }
 .option_dish_two{
     display: flex;
     flex: 1;
-    background-color: brown;
+    background-color: white;
 }
 .option_dish_three{
     display: flex;
     flex: 1;
-    background-color: chartreuse;
+    background-color: white;
 }
 .option_dish_four{
     display: flex;
     flex: 1;
-    background-color:darkmagenta;
+    background-color:white;
 }
 .option_dish_five{
     display: flex;
     flex: 1;
-    background-color: darkblue;
+    background-color: white;
 }
 .option_dish_six{
     display: flex;
     flex: 1;
-    background-color: darkslategray;
+    background-color: white;
 }
 .food_example_one{
     display: flex;
-    background-color: darkgoldenrod;
+    background-color: white;
     width: 30%;
     height: 100%;
     background-image:url(../../photo_plate_one.jpg);
@@ -61,24 +61,14 @@
     background-size: 100%;
     background-position: 50% 50%;
 }
-.text_price_one{
-    display: flex;
-    flex-direction: column;
-    background-color: aqua;
-    width: 70%;
-    height: 100%;
-    
 
-    
-}
-.text_price_one > h1 {
-    display: flex;
+
         
     
-}
+
 .food_example_two{
     display: flex;
-    background-color:cadetblue;
+    background-color:white;
     width: 30%;
     height: 100%;
     background-image: url(../../photo_plate_two.jpg);
@@ -87,15 +77,9 @@
     background-position: 50% 50%;
 
 }
-.text_price_two{
-    display: flex;
-    background-color:coral;
-    width: 70%;
-    height: 100%;
-}
 .food_example_three{
     display: flex;
-    background-color: darkgray;
+    background-color: white;
     width: 30%;
     height: 100%;
     background-image: url(../../photo_plate_three.jpg);
@@ -103,15 +87,19 @@
     background-size: 100%;
     background-position: 50% 50%
 }
-.text_price_three{
+.text_price {
     display: flex;
-    background-color: hotpink;
+    background-color: white;
     width: 70%;
     height: 100%;
+    align-items: center;
+    font-family: 'Lato',sans-serif;
+    line-height: 1,5;
+    margin-left: 5px;
 }
 .food_example_four{
     display: flex;
-    background-color: greenyellow;
+    background-color: white;
     width: 30%;
     height:100%;
     background-image: url(../../photo_plate_one.jpg);
@@ -119,15 +107,10 @@
     background-size: 100%;
     background-position: 50% 50%;
 }
-.text_price_four{
-    display: flex;
-    background-color:darkorchid;
-    width: 70%;
-    height: 100%;
-}
+
 .food_example_five{
     display: flex;
-    background-color: honeydew;
+    background-color: white;
     width: 30%;
     height: 100%;
     background-image: url(../../photo_plate_two.jpg);
@@ -135,25 +118,14 @@
     background-size: 100%;
     background-position: 50% 50%;
 }
-.text_price_five{
-    display: flex;
-    background-color: lightgreen;
-    width: 70%;
-    height: 100%;
-}
+
 .food_example_six{
     display: flex;
-    background-color: lightsalmon;
+    background-color: white;
     width: 30%;
     height: 100%;
     background-image: url(../../photo_plate_three.jpg);
     background-repeat: no-repeat;
     background-size:100%;
     background-position: 50% 50%;
-}
-.text_price_six{
-    display: flex;
-    background-color: firebrick;
-    width: 70%;
-    height: 100%;
 }
