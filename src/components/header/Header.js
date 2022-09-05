@@ -6,7 +6,7 @@ export const Header = () => {
             <div className='menu_logo'>Logo</div>
             <div className='menu_nav' >
                 <div>menu</div>
-                <div>dania</div>
+                <div>Rezerwacja</div>
                 <div>kontakt</div>
                 <div>o nas</div>
             </div>

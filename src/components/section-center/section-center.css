@@ -176,6 +176,9 @@
 
 
 }
+.price{
+  color: darkorange;
+}
 .container_information{
   display:flex;
   flex-direction: column;
