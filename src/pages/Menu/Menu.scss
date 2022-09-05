@@ -5,22 +5,27 @@
     grid-template-rows: repeat(24, 1fr);
     grid-template-columns: repeat(24, 1fr);
     background-color: white;
+    .offer_left{
+        display: flex;
+        flex-direction: column;
+        grid-column: 3  / 11;
+        grid-row: 3 / 21 ;
+        background-color: white;
 
+    }
+    .offer_right{
+        display: flex;
+        flex-direction: column;
+        grid-column: 15 / 23    ;
+        grid-row: 3 / 21;
+        background-color: white;
+    }
+    .price{
+       color: darkorange;
+    }
 }
-.offer_left{
-    display: flex;
-    flex-direction: column;
-    grid-column: 3  / 11;
-    grid-row: 3 / 21 ;
-    background-color: white;
-}
-.offer_right{
-    display: flex;
-    flex-direction: column;
-    grid-column: 15 / 23    ;
-    grid-row: 3 / 21;
-    background-color: white;
-}
+
+
 .option_dish_one{
     display: flex;
     flex: 1;

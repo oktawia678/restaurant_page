@@ -1,4 +1,4 @@
-import "./Menu.css";
+import "./Menu.scss";
 import { Header } from "../../components/header/Header";
 export const Menu = () => {
   return (
@@ -9,20 +9,23 @@ export const Menu = () => {
           <div className="option_dish_one">
             <div className="food_example_one"></div>
             <div className="text_price">
-          Steak with potatoes...18.99$
+          Steak with potatoes...
+          <p className="price">18.99$</p>
             </div>
           </div>
           <div className="option_dish_two">
             <div className="food_example_two"></div>
             <div className="text_price">
-              Tenderloin with salad...17.99$
+              Tenderloin with salad...
+              <p className="price">17.99$</p>
             </div>
           </div>
 
           <div className="option_dish_three">
             <div className="food_example_three"></div>
             <div className="text_price">
-    Chicken salad...16.99
+    Chicken salad...
+    <p className="price">16.99$</p>
             </div>
           </div>
         </div>
@@ -30,19 +33,22 @@ export const Menu = () => {
           <div className="option_dish_four">
             <div className="food_example_four"></div>
             <div className="text_price">
-    Steak with potatoes...18.99$
+    Steak with potatoes...
+    <p className="price">18.99$</p>
             </div>
           </div>
           <div className="option_dish_five">
             <div className="food_example_five"></div>
             <div className="text_price">
-                Tenderloin with salad...17.99$
+                Tenderloin with salad...
+                <p className="price">17.99$</p>
             </div>
           </div>
           <div className="option_dish_six">
             <div className="food_example_six"></div>
             <div className="text_price">
-Chicken salad...16.99$
+Chicken salad...
+<p className="price">16.99$</p>
             </div>
           </div>
         </div>

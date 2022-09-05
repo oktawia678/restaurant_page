@@ -6,7 +6,7 @@ export const SectionCenter = () => {
     <>
       <div className="container">
         <div className="container_for_four_elements">
-          <div className="title_one">WE`RE GOREAMEX RESTAURANT</div>
+          <div className="title_one">WE`RE OCTAVIA RESTAURANT</div>
           <div className="title_two">
             MAKING DELICIOUS <br /> PREMIUM FOOD
           </div>
@@ -29,7 +29,7 @@ export const SectionCenter = () => {
               COLLEGE OF ART UNDER THE GUIDANCE OF FOOD.
             </div>
             <div className="text_second">
-              Goreamex is a restaurant, bar and coffee roastery located on a
+              Octavia is a restaurant, bar and coffee roastery located on a
               busy corner site in Farringdon’s Exmouth Market. With glazed
               frontage on two sides of the building. Far far away, behind the
               word mountains, far from the countries Vokalia and Consonantia.
@@ -51,17 +51,25 @@ export const SectionCenter = () => {
       <div className="box_menu">  
       <div className="dish_1">
         <div className="image_one"></div>
-        <div className="under_text_one">Steak with potatoes...18.99$</div>
+        <div className="under_text_one">Steak with potatoes...
+        <p className="price">18.99$</p></div>
+       
       </div>
       <div className="dish_2">
       <div className="image_two"></div>
-      <div className="under_text_two">Tenderloin with salad...17.99$</div>
+      <div className="under_text_two">Tenderloin with salad...
+      <p className="price">17.99$</p>
+      </div>
+      
       </div>
       
      
       <div className="dish_3">
         <div className="image_three"></div>
-        <div className="under_text_three">Chicken salad...16.99$</div>
+        <div className="under_text_three">Chicken salad...
+        <p className="price">16.99$</p>
+        </div>
+        
       </div>
       </div>  
 
